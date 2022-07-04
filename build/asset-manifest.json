@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.22e52cf2.css",
+    "main.js": "./static/js/main.5fb056dc.js",
+    "static/media/kimayeclone1.PNG": "./static/media/kimayeclone1.fee4ea1870ba1dc52b1f.PNG",
+    "static/media/paytmmallclone.PNG": "./static/media/paytmmallclone.dea82a0af1aa19c039ba.PNG",
+    "static/media/kimayeclone2.PNG": "./static/media/kimayeclone2.3d63ea3974f22510bd82.PNG",
+    "static/media/kimayeclone3.PNG": "./static/media/kimayeclone3.308fc851e6227ea8eea2.PNG",
+    "static/media/paytmmallclone3.PNG": "./static/media/paytmmallclone3.ac2d47c529367b74857f.PNG",
+    "static/media/kimayeclone4.PNG": "./static/media/kimayeclone4.f15a69229cf3102906ed.PNG",
+    "static/media/livemint1.PNG": "./static/media/livemint1.bb40d8c29838eeb1a75b.PNG",
+    "static/media/earth.jpg": "./static/media/earth.a08c82a61f5bf923991e.jpg",
+    "static/media/livemint3.PNG": "./static/media/livemint3.2ee504365c0583abf2eb.PNG",
+    "static/media/kimayeclone5.PNG": "./static/media/kimayeclone5.899030cb5ec2772a8416.PNG",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "./static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
+    "static/media/paytmmallclone2.PNG": "./static/media/paytmmallclone2.dc38cca9893e938a3aa8.PNG",
+    "static/media/ionicons.svg?v=2.0.0": "./static/media/ionicons.ee5b17dfd3f2d12ff4e2.svg",
+    "static/media/ionicons.ttf?v=2.0.0": "./static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
+    "static/media/fontawesome-webfont.eot": "./static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "./static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/paytmmallclone4.PNG": "./static/media/paytmmallclone4.fefe2e91eca8a6fd538b.PNG",
+    "static/media/ionicons.eot?v=2.0.0": "./static/media/ionicons.68e3a4f9a8d8c679b4ae.eot",
+    "static/media/kimayeclone6.PNG": "./static/media/kimayeclone6.a2ebb6e068c60803718f.PNG",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "./static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "./static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/ionicons.woff?v=2.0.0": "./static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
+    "static/media/livemint2.PNG": "./static/media/livemint2.e20814d1607cc323b88e.PNG",
+    "static/media/male1.png": "./static/media/male1.33b5179ebc3ff05be62d.png",
+    "static/media/myImage.png": "./static/media/myImage.d37bb1c946c59794414c.png",
+    "static/media/male.png": "./static/media/male.cadeca2c10c5f440ffa7.png",
+    "index.html": "./index.html",
+    "main.22e52cf2.css.map": "./static/css/main.22e52cf2.css.map",
+    "main.5fb056dc.js.map": "./static/js/main.5fb056dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22e52cf2.css",
+    "static/js/main.5fb056dc.js"
+  ]
+}

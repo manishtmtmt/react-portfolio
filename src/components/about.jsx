@@ -6,57 +6,45 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "HTML5_skill", content: "HTML5", porcentage: "90%", value: "90" },
+        { id: "CSS3_skill", content: "CSS3", porcentage: "85%", value: "85" },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          porcentage: "80%",
+          value: "80",
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
           porcentage: "80%",
-          value: "80"
+          value: "80",
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
+          id: "redux_skill",
+          content: "Redux",
+          porcentage: "60%",
+          value: "60",
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "chakra_ui",
+          content: "Chakra-UI",
+          porcentage: "60%",
+          value: "60",
         },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Hello stranger! 👋, my name is Manish Tiwari and I am a Full Stack Developer, passionate about building digital products that improve everyday experience for people.",
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I love to work on exciting projects that test what I've learnt, whilst being exposed to the power and potential of the ever-evolving technologies around us. I'm always looking for better, and more importantly, ethical and accessible ways to solve the common problems we are faced with day-to-day.",
         },
-        {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
-      ]
+      ],
     };
   }
 
@@ -87,7 +75,7 @@ class About extends React.Component {
                     </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
+                      {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
@@ -114,7 +102,7 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
-                      {this.state.about_me.map(content => {
+                      {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}

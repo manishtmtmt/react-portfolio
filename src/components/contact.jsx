@@ -119,18 +119,7 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href=""
+                              href="https://github.com/manishtmtmt"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +130,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/wdmanisht/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -163,8 +152,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>
